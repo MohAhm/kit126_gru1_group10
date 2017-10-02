@@ -1,0 +1,107 @@
+/**********************************************
+    GENERAL
+/**********************************************/ 
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400 !important;
+    color: #1C1C1C;
+}
+
+h1, h2, h3 {
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #E74C3C;
+    letter-spacing: 2px;
+}
+
+a:hover, a:focus {
+    color: #C0392B;
+}
+
+a, .navbar  {
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+        -ms-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
+}
+
+
+/**********************************************
+    NAVBAR
+/**********************************************/
+.navbar {
+    font-weight: 500;
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 30px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .active>.nav-link:hover,
+.navbar-expand-lg .navbar-nav .active>.nav-link:focus,
+.navbar-expand-lg .navbar-nav .active>.nav-link {
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+/* .navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link:focus {
+  
+} */
+
+
+
+/**********************************************
+    JUMBOTRON
+/**********************************************/
+.jumbotron {
+    background: #1C1C1C url(../img/banner1.png) no-repeat center center;
+    background-size: cover;
+    max-height: 600px;
+    padding: 190px 0 90px 0;
+}
+
+.jumbotron h1 {
+    color: #FFF;
+    font-weight: 500 !important;
+} 
+
+
+
+/**********************************************
+    FOOTER
+/**********************************************/
+footer {
+    padding: 60px 0;
+    background-color: #ECF0F1;
+    font-weight: 600;
+}
+
+.footer-info {
+    list-style: none;
+    margin: 0;  
+    padding: 0;
+}
+
+.footer-info a {
+    color: #1C1C1C;
+    min-height: 16px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.footer-info li.mail a {
+	background-image: url('../img/ic_mail.svg');
+}
+
+.footer-info li.phone a {
+	background-image: url('../img/ic_call.svg');
+}
