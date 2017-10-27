@@ -1,1 +1,0 @@
-# kit126_gru1_group10

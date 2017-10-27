@@ -98,6 +98,7 @@ section {
     max-height: 600px;
     padding: 190px 0 90px 0;
     margin-bottom: 0;
+    color: #FFF;
 }
 
 .jumbotron h1 {
@@ -110,8 +111,18 @@ section {
     background-size: cover;
 }
 
-.press {
+.biljetter {
+    background: #1C1C1C url(../img/banner2.png) no-repeat;
+    background-size: cover;
+}
+
+.omoss {
     background: #1C1C1C url(../img/banner3.png) no-repeat center;
+    background-size: cover;
+}
+
+.press {
+    background: #1C1C1C url(../img/banner5.png) no-repeat center;
     background-size: cover;
 }
 
@@ -127,6 +138,166 @@ section {
 
 .heading {
     text-transform: uppercase;
+    padding: 0;
+}
+
+
+
+/**********************************************
+    BILJETTER
+/**********************************************/
+.GetTicketInfo {
+    padding: 15px;
+}
+
+.GetTicketInfo h2{
+    padding: 40px 0px 30px 0px
+}
+
+.GetTicketInfo h4 {
+    padding: 50px 0px;
+}
+
+.GetTicketInfo h5 {
+    padding: 50px 0px;
+}
+
+.TicketPrices {
+    padding: 15px 0px;
+}
+
+.TicketPrices h6 {
+    font-weight: bold;
+}
+
+.TicketContactInfo {
+    border-style: solid;
+    padding: 15px;
+}
+
+.TicketContactInfo h5 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.TicketAddressBib {
+    padding: 15px 0px;
+    
+}
+
+.TicketAddressBib h5 {
+    font-weight: bold;
+    
+}
+
+.TicketAddressBib th {
+    padding: 10px 40px 10px 10px;
+}
+
+.TicketAddressStore {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.TicketAddressStore h5 {
+    font-weight: bold;
+}
+
+.TicketAddressStore th {
+    padding: 10px 40px 10px 10px;
+}
+
+
+/**********************************************
+    TEXT & BOX
+/**********************************************/
+.text {
+    padding-bottom: 20px;
+}
+    
+.textsamarbete {
+    padding-top: 25px;
+    width: 500px;
+    margin-bottom: 0px;
+}
+
+.imgsamarbete {
+    display: block;
+    margin: auto; 
+}
+    
+.boxinfo1 {
+    display: inline-block;
+    border: 0 solid;
+    vertical-align: middle;
+    margin-left: 300px;      
+}
+
+.img44, .imgscale1, .imgscale2 {
+    margin: 4.5%;
+}
+
+.img44, .imgscale1 {
+    width: 10%;
+    height: 10%;
+}
+    
+.imgscale2 {
+    width: 5%;
+    height: 5%;
+}
+    
+.Lokal {
+    display: inline-block;
+    margin-top: 0px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+    width: 500px;
+}
+
+
+
+/**********************************************
+    BLI MEDLEM
+/**********************************************/
+#blimedlembg {
+    /* The image used */
+    background: #1C1C1C url(../img/banner4.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.member {
+    max-width: 600px;
+    background-color: #FFF; 
+    border-radius: 25px 25px 0 0;
+}
+
+.GetMemberInfo { 
+    padding: 15px;
+}
+
+.MemberPayment label {
+    cursor: pointer;
+}
+
+.paynr {
+  color: blue;
+}
+
+.MemberRegistration {
+  min-width: 370px;
+}
+
+#blimedlembg .jumbotron {
+    background-color: transparent;
 }
 
 
@@ -208,11 +379,28 @@ section {
     font-weight: 600;
 }
 
-.btn-primary {
-    background-color: #C0392B;
-    border: 0;
+.btn-primary, .btn-outline-primary{
     cursor: pointer;
     font-size: 1rem;
+}
+
+.btn-outline-primary {
+    color: #C0392B;
+    border-color: #C0392B;
+}
+
+.btn-primary {
+    background-color: #C0392B;
+    border: 0; 
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: #E74C3C !important;
+    border-color: #E74C3C !important;
+    outline: none !important;
+    color: #FFF;
 }
 
 .btn-primary:hover,
@@ -237,6 +425,17 @@ section {
 /**********************************************/
 .press-medd {
     background-color: #ECF0F1;
+}
+
+.press-medd li img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.medd {
+    background-color: #FFF; 
+    padding-bottom: 15px;
 }
 
 .list-group-item-action {
